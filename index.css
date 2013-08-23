@@ -1,0 +1,42 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.x {
+width: 200px;
+height:200px;
+background: yellow;
+}
+
+.o {
+width: 200px;
+height:200px;
+background: yellow;
+}
+
+.blank {
+width: 200px;
+height:200px;
+background: yellow;
+}
+
+
+#row{
+width: 660px;
+height: 200px;
+position: relative;
+}
+
+
+* [id*='box'] {
+width: 200px;
+height: 200px;
+float: left;
+font-size: 200px;
+border: 10px solid black;
+text-align: center;
+vertical-align: text-center;
+
+/*background: red;*/
+}
